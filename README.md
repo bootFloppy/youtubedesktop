@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="728" height="466" alt="image" src="https://github.com/user-attachments/assets/055d3535-bcec-4f65-9736-421a10f96b1a" />
+  <img width="728" height="466" alt="image" src="https://github.com/user-attachments/assets/5bb27299-404b-4f7e-bd5f-37d14ec02d21" />
 </p>
 
 # YT Desktop (with the TV layout)
