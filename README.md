@@ -5,10 +5,15 @@
 # YT Desktop (with the TV layout)
 > [!NOTE]
 > This Program is experimental at best, and may have some issues while ran.
+## Running on Linux
+In order to have the program run on linux properly, you'll need to install `webkit2gtk-4.1` and `gst-plugins-base-libs gst-libav gst-plugins-base gst-plugins-good`
+
+As of issue https://github.com/bootFloppy/youtubedesktop/issues/1, you'll need to install `gst-plugins-base-libs gst-libav gst-plugins-base gst-plugins-good` in order to have playback to be functional (and not have a "Something went wrong" popup.)
 ## How To Build
 [Tauri's Requirements](https://v2.tauri.app/start/prerequisites/)
 
 ```bash
 npm install
-npm run tauri dev
+npm run tauri build 
+# use "tauri dev" instead when testing.
 ```
