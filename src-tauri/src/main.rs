@@ -8,6 +8,10 @@ fn main() {
     }
     
     tauri::Builder::default()
+        .on_page_load(|webview, payload| {
+            println!("{:?} URL {} in webview {}", payload.event(), payload.url(), webview.label());
+            webview.eval("console.log('hi :3')").expect("")
+        })
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
